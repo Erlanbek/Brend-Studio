@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+/* font-family: 'Grand Hotel', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,600&display=swap');
+/* font-family: 'Arimo', sans-serif; */
+@import url('https://fonts.googleapis.com/css2? family= Days+One & display=swap');
+/* font-family: 'Days One', sans-serif; */
+img{
+    width: 200px;
+
+}
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+.header{
+    margin: 0 auto;
+    position: relative;
+    width: 1920px;
+    height: 510px;
+    background: url("../img/1659969307_2-funart-pro-p-fon-dlya-fotografa-krasivo-3.jpg");
+    background-size: cover;
+    background-position: center top -550px;
+    }
+.header__nav{
+    width: 1920px;
+    height: 148px;
+    display: flex;
+    }
+    
+.header__logo{
+    width: 74px;
+    height: 52px;
+    margin-top: 27px;
+    margin-left: 83px;
+    
+}
+
+.logo{
+    width: 300px;
+    height: 265px;
+    position: relative;
+    flex-direction: column;
+}
+
+.header__logo-title{
+    position: absolute;
+    width: 265px;
+    height: 62px;
+    left: 25px;
+    top: 72px;
+    font-family: 'Grand Hotel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    color: #FFFFFF;
+
+}
+
+
+.header__nav-ul{
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+
+
+}
+.header__nav-li{
+    list-style-type: none;
+    margin-left: 32px;
+}
+.header__nav-li>a{
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Arimo', sans-serif;
+    font-style: italic;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgb(23, 0, 233);
+}
+
+.header__nav-li>a:hover{
+    color: red;
+    cursor: pointer;
+    font-size: 24px;
+
+}
+
+.header__img{
+    width: 1800px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 51px;
+    margin-top: 72px;
+}
+
+.header__foto{
+    width: 362px;
+    height: 241px;
+    border-radius: 100px;
+}
+.header__foto:nth-child(2){
+    width: 541px;
+    height: 541px;
+    position: absolute;
+    top: -30px;
+    left: 900px;
+}
+
+.main{
+    width: 1920px;
+    margin: 0 auto;
+}
+.wedding{
+    position: relative;
+    width: 1920px;
+    height: 1242px;
+    background: url(../img/1648487632_3-gamerwall-pro-p-krasivii-fon-dlya-svadbi-krasivie-3.jpg);
+    background-size: cover;
+}
+
+.wedding__title{
+    text-align: center;
+    font-family: 'Days One', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    color: #000000;
+
+}
+ .main__kyrg{
+    border-radius: 300px;
+    position: absolute;
+    width: 566px;
+    height: 498px;
+    left: 40px;
+    top: 600px;
+    
+ }
+ .main__kyrgsv{
+    position: absolute;
+    left: 180px;
+    top: 1150px;
+    font-family: 'Days One', sans-serif;
+    font-size: 26px;
+    margin: 0 auto;
+ }
+ .main__aiyl{
+    border-radius: 300px;
+    position: absolute;
+    width: 566px;
+    height: 498px;
+    left: 630px;
+    top: 150px;
+ }
+ .main__aiylsv{
+    position: absolute;
+    left: 800px;
+    top: 700px;
+    font-family: 'Days One', sans-serif;
+    font-size: 26px;
+    margin: 0 auto;
+ }
+ .main__mus{
+    border-radius: 300px;
+    position: absolute;
+    width: 566px;
+    height: 498px;
+    left: 1250px;
+    top: 600px;
+ }
+ .main__mussv{
+    position: absolute;
+    left: 1450px;
+    top: 1150px;
+    font-family: 'Days One', sans-serif;
+    font-size: 26px;
+    margin: 0 auto;
+ }
+ .img__fon{
+    width: 1920px;
+    position: absolute;
+    top: 1240px;
+    filter: blur(10px);
+ }
+ .img__love{
+    position: absolute;
+    width: 880px;
+    height: 1081px;
+    left: 51px;
+    top: 1300px;
+    background: url(8ec3f2a3c872294b1ad953bf7bf6ad5d.jpg);
+    border-radius: 200px;
+    }
